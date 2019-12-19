@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Humanizer.Core" Version="2.7.9" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\1 - Common\DDDwithEFCore_01_Common.Core\DDDwithEFCore_01_Common.Core.csproj" />
+        <ProjectReference Include="..\..\1 - Common\DDDwithEFCore_02_Common.Infrastructures.EFCore\DDDwithEFCore_02_Common.Infrastructures.EFCore.csproj" />
+        <ProjectReference Include="..\..\2 - Application Core\DDDwithEFCore_03_ApplicationCore.DomainModels\DDDwithEFCore_03_ApplicationCore.DomainModels.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Migrations\" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,16 @@
+﻿DD Dwith EF Core==>
+
+DDDwithEFCore_00_CrossCutting
+DDDwithEFCore_01_Common.Core
+DDDwithEFCore_02_Common.Infrastructures.EFCore
+DDDwithEFCore_03_ApplicationCore.DomainModels
+DDDwithEFCore_04_Infrastructures.EFCore
+DDDwithEFCore_05_ApplicationServices.Commands
+DDDwithEFCore_06_ApplicationServices.Queries
+DDDwithEFCore_07_Endpoint.WebApp
+
+DDDwithEFCore_08_Tests.Core.DomainModels
+DDDwithEFCore_09_Tests.Infrastructure.EFCore
+DDDwithEFCore_10_Tests.Services.Commands
+DDDwithEFCore_11_Tests.Services.Queries
+DDDwithEFCore_12_Tests.WebApp

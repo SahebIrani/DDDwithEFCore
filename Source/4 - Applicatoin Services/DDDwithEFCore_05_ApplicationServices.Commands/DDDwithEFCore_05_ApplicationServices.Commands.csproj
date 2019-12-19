@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="8.6.0" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\1 - Common\DDDwithEFCore_01_Common.Core\DDDwithEFCore_01_Common.Core.csproj" />
+      <ProjectReference Include="..\..\2 - Application Core\DDDwithEFCore_03_ApplicationCore.DomainModels\DDDwithEFCore_03_ApplicationCore.DomainModels.csproj" />
+      <ProjectReference Include="..\..\3 - Infrastructures\DDDwithEFCore_04_Infrastructures.EFCore\DDDwithEFCore_04_Infrastructures.EFCore.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,14 @@
+{
+    "Logging": {
+        "LogLevel": {
+            "Default": "Information",
+            "Microsoft": "Warning",
+            "Microsoft.Hosting.Lifetime": "Information"
+        }
+    },
+
+    "QualifiedAssemblyPattern": "DDDEfCore.ProductCatalog.*",
+    "ConnectionStrings": {
+        "DefaultDb": "Server=localhost;Database=DDDEfCore_ProductCatalog;User ID=sa;Password=Kimcu@123;MultipleActiveResultSets=true"
+    }
+}

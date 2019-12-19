@@ -1,0 +1,11 @@
+{
+ "Logging": {
+    "LogLevel": {
+        "Default": "Information",
+        "Microsoft": "Warning",
+        "Microsoft.Hosting.Lifetime": "Information"
+    }
+}, "AllowedHosts": "*", "QualifiedAssemblyPattern": "DDDEfCore.ProductCatalog.*", "ConnectionStrings": {
+    "DefaultConnection": "Server=(localdb)\\mssqllocaldb;Database=aspnet-DDDwithEFCore_07_Endpoint.WebApp-B2D8B0DC-425C-41BA-910C-0891F2D95094;Trusted_Connection=True;MultipleActiveResultSets=true",
+    "AppDbContext": ""
+} }

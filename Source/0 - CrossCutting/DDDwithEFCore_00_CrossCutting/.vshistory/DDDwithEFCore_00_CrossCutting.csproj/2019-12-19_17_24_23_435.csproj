@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MediatR" Version="7.0.0" />
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="5.0.0-rc5" />
+
+        <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.0" />
+        <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.1.0" />
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\1 - Common\DDDwithEFCore_01_Common.Core\DDDwithEFCore_01_Common.Core.csproj" />
+        <ProjectReference Include="..\..\1 - Common\DDDwithEFCore_02_Common.Infrastructures.EFCore\DDDwithEFCore_02_Common.Infrastructures.EFCore.csproj" />
+        <ProjectReference Include="..\..\2 - Application Core\DDDwithEFCore_03_ApplicationCore.DomainModels\DDDwithEFCore_03_ApplicationCore.DomainModels.csproj" />
+        <ProjectReference Include="..\..\3 - Infrastructures\DDDwithEFCore_04_Infrastructures.EFCore\DDDwithEFCore_04_Infrastructures.EFCore.csproj" />
+        <ProjectReference Include="..\..\4 - Applicatoin Services\DDDwithEFCore_05_ApplicationServices.Commands\DDDwithEFCore_05_ApplicationServices.Commands.csproj" />
+        <ProjectReference Include="..\..\4 - Applicatoin Services\DDDwithEFCore_06_ApplicationServices.Queries\DDDwithEFCore_06_ApplicationServices.Queries.csproj" />
+    </ItemGroup>
+
+</Project>

@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\1 - Common\DDDwithEFCore_01_Common.Core\DDDwithEFCore_01_Common.Core.csproj" />
+  </ItemGroup>
+
+</Project>

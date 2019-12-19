@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+        <UserSecretsId>aspnet-DDDwithEFCore_07_Endpoint.WebApp-B2D8B0DC-425C-41BA-910C-0891F2D95094</UserSecretsId>
+        <ApplicationIcon />
+        <OutputType>Library</OutputType>
+        <StartupObject />
+    </PropertyGroup>
+
+    <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+      <PlatformTarget>x86</PlatformTarget>
+      <DocumentationFile>F:\SinjulMSBH\New\BK\SampleCodes\08\DDD with EF Core\Source\5 - Endpoint\DDDwithEFCore_07_Endpoint.WebApp\DDDwithEFCore_07_Endpoint.WebApp.xml</DocumentationFile>
+      <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+      <Optimize>true</Optimize>
+      <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.0" />
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+          <PrivateAssets>all</PrivateAssets>
+          <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\0 - CrossCutting\DDDwithEFCore_00_CrossCutting\DDDwithEFCore_00_CrossCutting.csproj" />
+    </ItemGroup>
+
+</Project>
